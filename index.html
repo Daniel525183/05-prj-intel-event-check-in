@@ -26,6 +26,7 @@
     </div>
     <!-- Attendance tracking -->
     <div class="attendance-tracker">
+      <p id="celebration"></p>
       <div class="attendance-header">
         <i class="fas fa-users"></i>
         Attendance: <span id="attendeeCount">0</span>/50
@@ -37,7 +38,7 @@
     <div class="container">
       <!-- Feedback message -->
       <p id="greeting"></p>
-
+      
       <!-- Check-in form -->
       <form class="check-in" id="checkInForm">
         <label for="attendeeName" class="form-label">Attendee Check-In</label>
@@ -67,15 +68,15 @@
       <div class="team-stats">
         <h3>Team Attendance</h3>
         <div class="teams-grid">
-          <div class="team-card water">
+          <div class="team-card water" id = "water-card">
             <span class="team-name">🌊 Team Water Wise</span>
             <span class="team-count" id="waterCount">0</span>
           </div>
-          <div class="team-card zero">
+          <div class="team-card zero" id = zero-card>
             <span class="team-name">🌿 Team Net Zero</span>
             <span class="team-count" id="zeroCount">0</span>
           </div>
-          <div class="team-card power">
+          <div class="team-card power" id = power-card>
             <span class="team-name">⚡ Team Renewables</span>
             <span class="team-count" id="powerCount">0</span>
           </div>

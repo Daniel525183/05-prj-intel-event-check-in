@@ -252,6 +252,15 @@ button .fas {
   margin-bottom: 15px;
   display: none;
 }
+#celebration{
+  font-weight: 500;
+  font-size: 30px;
+  padding: 20px 20px;
+  border-radius: 8px;
+  color: #333;
+  margin-bottom: 0px;
+  display: none;
+}
 
 .success-message {
   background-color: #e8f4fc;
@@ -332,13 +341,13 @@ select {
 }
 
 /* Team card colors */
-.team-card.water {
+#water-card {
   background-color: #e8f7fc;
 }
-.team-card.zero {
+#zero-card {
   background-color: #ecfdf3;
 }
-.team-card.power {
+#power-card {
   background-color: #fff7ed;
 }
 
